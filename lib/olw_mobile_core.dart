@@ -1,4 +1,4 @@
-library em_core;
+library olw_core;
 
 /// A Calculator.
 class Calculator {
