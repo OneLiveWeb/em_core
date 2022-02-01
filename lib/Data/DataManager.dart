@@ -21,7 +21,7 @@ class PropertyDetailsArchive {
       detail.name = detailxml.getAttribute("name") ?? detailxml.text ;
       detail.editable = detailxml.getAttribute("editable")!.toLowerCase() == 'true';
       details.add(detail);
-      print("Details are ${detail}");
+      print("Details dsafasdares ${detail}");
     });
     print(details);
     return details;
